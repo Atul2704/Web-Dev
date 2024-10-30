@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+main {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+.nav {
+    color: white;
+    padding: 40px 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav h2 {
+    font-size: 35px;
+}
+
+.nav h2 span {
+    color: rgb(116, 116, 243);
+}
+
+.nav .part2 {
+    transform: translate(50px, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+}
+
+.part2 a,
+.part3 a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nav .part3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+}
+
+.content {
+    padding: 0 150px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section h1 {
+    padding: 0px 30px;
+    font-size: 100px;
+    font-weight: 600;
+    color: white;
+}
+
+section .content2 {
+    padding: 0 120px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.content2 p {
+    margin-top: -100px;
+    padding: 0px 30px;
+    line-height: 40px;
+    font-size: 25px;
+    font-weight: lighter;
+    color: white;
+}
+
+.content2 p span {
+    font-weight: 800;
+}
+
+.content2 h1 span {
+    color: rgb(116, 116, 243);
+}
+
+.content img {
+    padding-top: 50px;
+    width: 550px;
+}
+
+section .button{
+    padding: 40px 143px;
+    display: flex;
+    gap: 20px;
+}
+
+button{
+    padding: 15px 20px;
+    border: none;
+    font-size: 17px;
+    border-radius: 40px;
+    font-weight: bold;
+    gap: 50px;
+    cursor: pointer;
+}
+
+  .get-in-touch {
+    background-color: rgb(116, 116, 243);
+    color: white;
+  }
+  
+  .explore {
+    background-color: #f2f2f2;
+    color: #333;
+  }
